@@ -1,0 +1,11 @@
+Source: remotekbd
+Section: net
+Priority: optional
+Maintainer: https://github.com/jsgh
+Build-Depends: libssh-dev
+Standards-Version: 4.6.1.1
+
+Package: remotekbd
+Architecture: any
+Depends: libssh-4
+Description: A small utility to allow remote keyboard and mouse (not screen) access to a remote server.

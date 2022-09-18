@@ -1,0 +1,24 @@
+#!/usr/bin/make -f
+
+#clean:
+#	make clean
+
+#binary:
+#	echo R DESTDIR=$(DESTDIR)
+#	echo R prefix=$(prefix)
+#	dh $@
+
+#binary-arch:
+
+#binary-indep:
+
+#build:
+#	make keyhdrs
+#	make
+
+#build-arch:
+
+#build-indep:
+
+%:
+	prefix=/usr dh $@
